@@ -8,7 +8,8 @@ body {
 }
 
 h1 {
-    margin-top: 1em;
+    margin-top: 5em;
+    margin-bottom: 5em;
     text-align: center;
     font-family:'Times New Roman';
     font-size: xx-large;
@@ -25,12 +26,18 @@ h2 {
     text-decoration: underline;
 }
 
+.toc h2{
+    margin-top: 5em;
+    text-align: left;
+}
+
 .toc ol{
     text-align: left;
     font-weight: bold;
+    margin-bottom: 5em;
 }
 
-.toc h2,h3,h4,h5,h6 {
+h3,h4,h5,h6 {
     page-break-before: always;
     text-align: center;
     margin-top: 1em;
@@ -55,6 +62,12 @@ p {
     max-width: 80%;
     }
 
+/* Worst Joke uses "ce" for divs it wants centered. */
+.ce{
+    text-align: center;
+}
+
+/* Huckleberry uses class "fig" to denote it's images. */
 .fig {
     display: block; 
     overflow: hidden;
