@@ -4,6 +4,7 @@ body {
     padding-left: 8%;
     background-image: url("paper.jpg");
     background-repeat: repeat-y;
+    color: rgb(68, 68, 68);
 }
 
 h1 {
