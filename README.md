@@ -15,7 +15,8 @@ git clone https://github.com/abramhindle/CMPUT404-assignment-css-hell.git
 
 Part 1
 ======
-HTML files came with their own CSS. For the sake of the assignment I commented out or deleted the provided CSS.
+HTML files came with their own CSS. For the sake of the assignment I commented out or deleted the provided CSS that directly interfered with my own.
+This included deletion of paragraph, body, header and image code.
 I also added a line to reference my CSS file as the stylesheet.
 
 The CSS style I was aiming for was a classic book, but not too old that the paper is becoming dark and yellow.
@@ -30,6 +31,8 @@ Some changes to create the desired theme:
 - Great Gatsby used a table of contents, ensured it also followed the general theme.
 - Images are centered (if present)
 
+Part 2
+======
 
 License/Copyright
 =================
