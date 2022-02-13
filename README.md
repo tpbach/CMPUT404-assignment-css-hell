@@ -25,9 +25,10 @@ Some changes to create the desired theme:
 - Paragraphs have an indent
 - Added paper background
 - Changed font to better suit background (Times New Roman)
-- Headers all follow a classic look (centered, underlined and not too obnoxious)
+- Chapter headers all follow a classic look (centered, underlined and not too obnoxious)
+- Other headers are distinguishable from regular text. (bold title)
 - Great Gatsby used a table of contents, ensured it also followed the general theme.
-- Images are centered
+- Images are centered (if present)
 
 
 License/Copyright
