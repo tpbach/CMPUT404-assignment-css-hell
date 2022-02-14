@@ -31,9 +31,6 @@ Some changes to create the desired theme:
 - Great Gatsby used a table of contents, ensured it also followed the general theme.
 - Images are centered (if present)
 
-Part 2
-======
-
 License/Copyright
 =================
 
