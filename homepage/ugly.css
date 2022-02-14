@@ -1,0 +1,139 @@
+:root {
+    --ff-primary: "Comic Neue";
+    --ff-secondary: "Comic Neue";
+    --clr-accent: rgb(48, 1, 255);
+    --clr-body: rgb(0, 0, 0);
+    --clr-sidebar: hsla(51, 100%, 56%, 0.877);
+    --clr-bg: #ddd;
+    --h1-size: 4em;
+    --h3-size: 2em;
+    --p-size: 1.5em;
+}
+
+.sidebar {
+    position: fixed;
+    height: 100%;
+    width: 14%;
+    top: 0;
+    left: 0;
+    background-color: var(--clr-sidebar);
+    overflow-x: hidden;
+    padding: 1%;
+}
+
+.sidebar li{
+    color: green;
+}
+
+
+.wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 55%;
+    margin-top: 3%;
+	padding-left: 16%;
+	padding-right: 2%;
+    margin-bottom: 3%;
+}
+
+header {
+	text-align: left;
+	display: block;
+}
+
+hr {
+	background-color: var(--clr-bg);
+}
+
+img{
+	height: auto; 
+	width: 250px;
+}
+
+/* Profile Picture and Header  */
+header .profilePicture{
+    width: 250px;
+    height: 250px;
+    margin-right: 0px;
+    overflow: hidden;
+} 
+
+header .profileHeader h1 {
+	font-family: var(--ff-primary);
+	color: var(--clr-body);
+	font-size: var(--h1-size);
+	font-weight: 700;
+	line-height: 24px;
+}
+header .profileHeader h3 {
+	font-family: var(--ff-primary);
+	color: var(--clr-accent);
+	font-size: var(--h3-size);
+	font-weight: 700;
+	line-height: 24px;
+}
+
+header .profileHeader p {
+	font-family: var(--ff-primary);
+	color: var(--clr-body);
+	font-size: var(--p-size);
+	font-weight: 400;
+	line-height: 1.8;
+	overflow-y: auto;
+    padding: 1em;
+    border-radius: 20%;
+    background-color: rgb(255, 192, 247);
+}
+.content{
+	display: block;
+}
+
+/* Section Titles */
+.secTitle {
+	font-family: var(--ff-primary);
+	color: var(--clr-body);
+	font-size: 2em;
+	font-weight: 700;
+    margin-top: 2em;
+	text-transform: uppercase;
+}
+
+/* Contact Info Specifics */
+.content .contactInfo .contactInfoContent span {
+	color: var(--clr-accent);
+	font-family: var(--ff-primary);
+}
+
+.content .contactInfo .contactInfoContent, .content .contactInfo .contactInfoContent a{
+	font-family: var(--ff-primary);
+	font-size: 14px;
+	font-weight: 100;
+	color: var(--clr-body);
+    text-decoration: none;
+}
+
+.content .contactInfo .contactInfoContent a:hover{
+    text-decoration: underline;
+}
+
+/* Prof History Specifics */
+.content .history .historyContent h2{
+    font-family: var(--ff-secondary);
+	color: var(--clr-body);
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.history .secContentSubTitle {
+	font-family: var(--ff-secondary);
+	color: var(--clr-accent);
+	font-size: 14px;
+	font-weight: 400;
+}
+.history .secContent{
+	font-family: var(--ff-primary);
+	color: var(--clr-body);
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.8;
+}

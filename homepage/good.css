@@ -1,0 +1,151 @@
+/* Variables */
+:root {
+    --ff-primary: 'Montserrat', sans-serif;
+    --ff-secondary: sans-serif;
+    --clr-accent: rgb(49, 82, 143);
+    --clr-body: rgb(83, 83, 83);
+    --clr-sidebar: hsla(0, 0%, 19%, 0.1);
+    --clr-bg: #ddd;
+    --h1-size: 2em;
+    --h3-size: 1em;
+    --p-size: 1em;
+}
+
+/* Sidebar */
+.sidebar {
+    position: fixed;
+    height: 100%;
+    width: 14%;
+	top: 0;
+    left: 0;
+    background-color: var(--clr-sidebar);
+    overflow-x: hidden;
+    padding: 1%;
+}
+
+.sidebar li {
+    padding-top: 10px;
+    text-decoration: none;
+    font-size: 1em;
+    color: var(--clr-body);
+    font-family: var(--ff-secondary);
+    display: block;
+}
+
+/* Global Settings */
+.wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 55%;
+    margin-top: 3%;
+	padding-left: 16%;
+	padding-right: 2%;
+    margin-bottom: 3%;
+}
+
+body{
+    display: flex;
+    margin: 0;
+
+}
+
+header {
+	text-align: center;
+	display: block;
+}
+
+hr {
+	background-color: var(--clr-bg);
+}
+
+img{
+	height: auto; 
+	width: 250px;
+}
+
+/* Profile Picture and Header  */
+header .profilePicture{
+    background-color: var(--clr-bg);
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    overflow: hidden;
+} 
+
+header .profileHeader h1 {
+	font-family: var(--ff-primary);
+	color: var(--clr-body);
+	font-size: var(--h1-size);
+	font-weight: 700;
+	line-height: 24px;
+}
+header .profileHeader h3 {
+	font-family: var(--ff-primary);
+	color: var(--clr-accent);
+	font-size: var(--h3-size);
+	font-weight: 700;
+	line-height: 24px;
+}
+
+header .profileHeader p {
+	font-family: var(--ff-primary);
+	color: var(--clr-body);
+	font-size: var(--p-size);
+	font-weight: 400;
+	line-height: 1.8;
+	overflow-y: auto;
+}
+.content{
+	display: block;
+}
+
+/* Section Titles */
+.secTitle {
+	font-family: var(--ff-primary);
+	color: var(--clr-body);
+	font-size: 18px;
+	font-weight: 700;
+    margin-top: 2em;
+	text-transform: uppercase;
+}
+
+/* Contact Info Specifics */
+.content .contactInfo .contactInfoContent span {
+	color: var(--clr-accent);
+	font-family: var(--ff-primary);
+}
+
+.content .contactInfo .contactInfoContent, .content .contactInfo .contactInfoContent a{
+	font-family: var(--ff-primary);
+	font-size: 14px;
+	font-weight: 100;
+	color: var(--clr-body);
+    text-decoration: none;
+}
+
+.content .contactInfo .contactInfoContent a:hover{
+    text-decoration: underline;
+}
+
+/* Prof History Specifics */
+.content .history .historyContent h2{
+    font-family: var(--ff-secondary);
+	color: var(--clr-body);
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.history .secContentSubTitle {
+	font-family: var(--ff-secondary);
+	color: var(--clr-accent);
+	font-size: 14px;
+	font-weight: 400;
+}
+.history .secContent{
+	font-family: var(--ff-primary);
+	color: var(--clr-body);
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.8;
+}
